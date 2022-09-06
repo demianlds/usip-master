@@ -9,6 +9,7 @@ import { CrearAreaComponent } from './componentes/crear-area/crear-area.componen
 import { EmpleadosComponent } from './componentes/empleados/empleados.component';
 import { EmpleadoComponent } from './componentes/empleado/empleado.component';
 import { CrearEmpleadoComponent } from './componentes/crear-empleado/crear-empleado.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CrearEmpleadoComponent } from './componentes/crear-empleado/crear-emple
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
